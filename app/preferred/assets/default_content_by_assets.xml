@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiteNote>
+
+    <folder>
+        <folder_name>Local</folder_name>
+    <page>
+        <page_name>Photo</page_name>
+        <note>
+            <title>[n]local image file</title>
+            <body></body>
+            <picture>file:///storage/emulated/0/LiteNote/local.jpg</picture>
+            <audio></audio>
+            <link></link>
+        </note>
+    </page>
+
+    <page>
+        <page_name>Audio</page_name>
+        <note>
+            <title>[n]local audio file</title>
+            <body></body>
+            <picture></picture>
+            <audio>file:///storage/emulated/0/LiteNote/local.mp3</audio>
+            <link></link>
+        </note>
+    </page>
+
+    <page>
+    <page_name>Video</page_name>
+        <note>
+            <title>[s]local video file</title>
+            <body></body>
+            <picture>file:///storage/emulated/0/LiteNote/local.mp4</picture>
+            <audio></audio>
+            <link></link>
+        </note>
+    </page>
+
+    <page>
+        <page_name>Link</page_name>
+        <note>
+            <title>[n]公共電視 網路直播 PTS Live</title>
+            <body></body>
+            <picture></picture>
+            <audio></audio>
+            <link>https://youtu.be/zjGR32QyTkQ</link>
+        </note>
+    </page>
+    </folder>
+
+    <folder>
+        <folder_name>Remote</folder_name>
+        <page>
+            <page_name>Photo</page_name>
+            <note>
+                <title>[s]jpg by picture</title>
+                <body></body>
+                <picture>https://cdn.pixabay.com/photo/2018/09/23/18/30/drop-3698073_960_720.jpg</picture>
+                <audio></audio>
+                <link></link>
+            </note>
+            <note>
+                <title>[s]jpg by link</title>
+                <body></body>
+                <picture></picture>
+                <audio></audio>
+                <link>https://cdn.pixabay.com/photo/2018/09/23/18/30/drop-3698073_960_720.jpg</link>
+            </note>
+        </page>
+
+        <page>
+            <page_name>Audio</page_name>
+            <note>
+                <title>[s]mp3 by audio</title>
+                <body></body>
+                <picture></picture>
+                <audio>https://www.sample-videos.com/audio/mp3/crowd-cheering.mp3</audio>
+                <link></link>
+            </note>
+            <note>
+                <title>[s]mp3 by link (Google drive)</title>
+                <body></body>
+                <picture></picture>
+                <audio></audio>
+                <link>https://drive.google.com/file/d/1wrOx_p6YVNZ3L3pBRU-O2p6m3V-fw17c/view</link>
+            </note>
+        </page>
+
+        <page>
+            <page_name>Video</page_name>
+            <note>
+                <title>[s]mp4 by picture</title>
+                <body>cartoon</body>
+                <picture>http://clips.vorwaerts-gmbh.de/VfE_html5.mp4</picture>
+                <audio></audio>
+                <link></link>
+            </note>
+            <note>
+                <title>[s]mp4 by link (Google Drive)</title>
+                <body>bread</body>
+                <picture></picture>
+                <audio></audio>
+                <link>https://drive.google.com/open?id=1K2zk-hoZAQRpdHp2Ld3zALV1p-yuZWO4</link>
+            </note>
+        </page>
+
+        <page>
+            <page_name>Link</page_name>
+            <note>
+                <title>[s]YouTube link</title>
+                <body></body>
+                <picture></picture>
+                <audio></audio>
+                <link>https://www.youtube.com/watch?v=XbsI1xT3Jso</link>
+            </note>
+            <note>
+                <title>[s]Web link</title>
+                <body></body>
+                <picture></picture>
+                <audio></audio>
+                <link>http://www.yourpurebredpuppy.com/reviews/beagles.html</link>
+            </note>
+        </page>
+    </folder>
+
+    <folder>
+        <folder_name>50s</folder_name>
+        <page>
+            <page_name>50s</page_name>
+            <note>
+                <title>[n]Bill Haley &amp; His Comets - Rock Around The Clock (OST, 1956)</title>
+                <body></body>
+                <picture></picture>
+                <audio></audio>
+                <link>https://youtu.be/-eJOJhwgluE</link>
+            </note>
+
+            <note>
+                <title>[n]Elvis Presley - Heartbreak Hotel (Audio)</title>
+                <body></body>
+                <picture></picture>
+                <audio></audio>
+                <link>https://youtu.be/e9BLw4W5KU8</link>
+            </note>
+
+            <note>
+                <title>[n]Elvis Presley - Don&apos;t Be Cruel</title>
+                <body></body>
+                <picture></picture>
+                <audio></audio>
+                <link>https://youtu.be/ViMF510wqWA</link>
+            </note>
+
+            <note>
+                <title>[n]</title>
+                <body></body>
+                <picture></picture>
+                <audio></audio>
+                <link>https://youtu.be/MjrJi_vlmNw</link>
+            </note>
+
+            <note>
+                <title>[n]Elvis Presley - Suspicious Minds (Audio)</title>
+                <body></body>
+                <picture></picture>
+                <audio></audio>
+                <link>https://youtu.be/RxOBOhRECoo</link>
+            </note>
+
+            <note>
+                <title>[n]Johnny Cash - I Walk the Line</title>
+                <body></body>
+                <picture></picture>
+                <audio></audio>
+                <link>https://youtu.be/KHF9itPLUo4</link>
+            </note>
+
+            <note>
+                <title>[n]fats domino - blueberry hill</title>
+                <body></body>
+                <picture></picture>
+                <audio></audio>
+                <link>https://youtu.be/bQQCPrwKzdo</link>
+            </note>
+
+            <note>
+                <title>[n]Buddy Holly &amp; The Crickets - That&apos;ll Be The Day</title>
+                <body></body>
+                <picture></picture>
+                <audio></audio>
+                <link>https://youtu.be/9nrInsANB8Q</link>
+            </note>
+
+            <note>
+                <title>[n]Chuck Berry - Johnny B Goode (1959)</title>
+                <body></body>
+                <picture></picture>
+                <audio></audio>
+                <link>https://youtu.be/T38v3-SSGcM</link>
+            </note>
+
+            <note>
+                <title>[n]Sam Cooke - You Send Me (Live)</title>
+                <body></body>
+                <picture></picture>
+                <audio></audio>
+                <link>https://youtu.be/85ekOXs1-7k</link>
+            </note>
+
+            <note>
+                <title>[n]</title>
+                <body></body>
+                <picture></picture>
+                <audio></audio>
+                <link>https://youtu.be/R4GLAKEjU4w</link>
+            </note>
+
+            <note>
+                <title>[n]All I Have To Do Is Dream - Everly Brothers</title>
+                <body></body>
+                <picture></picture>
+                <audio></audio>
+                <link>https://youtu.be/tbU3zdAgiX8</link>
+            </note>
+
+            <note>
+                <title>[n]The Flamingos - I Only Have Eyes For You</title>
+                <body></body>
+                <picture></picture>
+                <audio></audio>
+                <link>https://youtu.be/FvzNeh4Mq1o</link>
+            </note>
+
+            <note>
+                <title>[n]The Isley Brothers - Shout</title>
+                <body></body>
+                <picture></picture>
+                <audio></audio>
+                <link>https://youtu.be/nEjLFpU2pJ4</link>
+            </note>
+
+            <note>
+                <title>[n]Mack the Knife-Bobby Darin</title>
+                <body></body>
+                <picture></picture>
+                <audio></audio>
+                <link>https://youtu.be/SEllHMWkXEU</link>
+            </note>
+
+            <note>
+                <title>[n]Save the last dance for me - The Drifters</title>
+                <body></body>
+                <picture></picture>
+                <audio></audio>
+                <link>https://youtu.be/n-XQ26KePUQ</link>
+            </note>
+
+            <note>
+                <title>[n]The Drifters - Under The Boardwalk</title>
+                <body></body>
+                <picture></picture>
+                <audio></audio>
+                <link>https://youtu.be/EPEqRMVnZNU</link>
+            </note>
+
+            <note>
+                <title>[n]Georgia On My Mind Ray Charles</title>
+                <body></body>
+                <picture></picture>
+                <audio></audio>
+                <link>https://youtu.be/yZceOIAh1i0</link>
+            </note>
+
+            <note>
+                <title>[n]Ray Charles   I Can&apos;t Stop Loving You</title>
+                <body></body>
+                <picture></picture>
+                <audio></audio>
+                <link>https://youtu.be/r_7iRVtxui8</link>
+            </note>
+
+            <note>
+                <title>[n]The Shirelles Will you still love me tomorrow (Top Quality + Lyrics)</title>
+                <body></body>
+                <picture></picture>
+                <audio></audio>
+                <link>https://youtu.be/cnPlJxet_ac</link>
+            </note>
+
+        </page>
+    </folder>
+
+</LiteNote>

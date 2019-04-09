@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+             >
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtube_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <!-- youTube view control -->
+    <LinearLayout
+        android:id="@+id/youtube_control"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/bar_color"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_previous"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="@string/view_note_slide_action_previous"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="@string/view_note_slide_action_next"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button"
+            android:visibility="gone"  />
+    </LinearLayout>
+</LinearLayout>

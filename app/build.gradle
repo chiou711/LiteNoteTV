@@ -1,0 +1,85 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '28.0.3'
+
+//    lintOptions {
+//        checkReleaseBuilds false
+//        // Or, if you prefer, you can continue to check for errors in release builds,
+//        // but continue the build even when errors are found:
+//        abortOnError false
+//    }
+
+    defaultConfig {
+        applicationId "com.cw.litenote"
+        minSdkVersion 14
+        targetSdkVersion 27
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+//            shrinkResources true
+//            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+              // mark: With initial tables: 2 folders, 1 page each folder
+              // un-mark: With default content by assets XML file
+              // Note: Apk file size will increase if assets directory is set at default location (app/src/main/assets)
+            assets.srcDirs = ['preferred/assets/']
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    //https://stackoverflow.com/questions/44342455/more-than-one-file-was-found-with-os-independent-path-meta-inf-license
+//    packagingOptions {
+//        exclude 'META-INF/DEPENDENCIES'
+//    }
+
+    configurations.all {
+        resolutionStrategy.force 'com.google.code.findbugs:jsr305:3.0.1'
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:multidex:1.0.3'
+    //    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation files('libs/commons-io-2.4.jar')
+    implementation files('libs/universal-image-loader-1.9.5.jar')
+    implementation files('libs/YouTubeAndroidPlayerApi.jar')
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.android.support:support-v13:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    // if ENABLE_ADMOB = true, enable the following
+//    implementation 'com.android.support:support-annotations:28.0.0'
+//    implementation 'com.google.android.gms:play-services-ads:16.0.0'
+    // group: short and best
+    implementation('com.google.api-client:google-api-client-android:1.27.0') {
+        exclude group: 'org.apache.httpcomponents'
+    }
+    implementation('com.google.apis:google-api-services-youtube:v3-rev20180511-1.27.0') {
+        exclude group: 'org.apache.httpcomponents'
+    }
+    // group 1
+    //    implementation files('libs/google-api-client-1.24.1.jar')
+    //    implementation files('libs/google-oauth-client-1.24.1.jar')
+    //    implementation files('libs/google-http-client-1.24.1.jar')
+    //    implementation files('libs/jsr305-3.0.2.jar')
+    //    implementation files('libs/google-api-client-gson-1.24.1.jar')
+    //    implementation files('libs/gson-2.1.jar')
+    //    implementation files('libs/google-http-client-jackson2-1.24.1.jar')
+    //    implementation files('libs/jackson-core-2.9.2.jar')
+    //    implementation files('libs/google-api-services-youtube-v3-rev20180511-1.27.0.jar')
+    //    implementation files('libs/google-api-services-oauth2-v1-rev145-java-1.25.0.zip')
+}

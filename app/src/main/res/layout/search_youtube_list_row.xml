@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_height="100dp"
+              android:layout_width="match_parent"
+              android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/searched_thumbnail"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/searched_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"/>
+
+        <ProgressBar
+            android:id="@+id/searched__progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/searched_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/searched_image"
+            android:layout_alignRight="@id/searched_image"
+            android:layout_alignEnd="@id/searched_image"
+            android:background="#00ffffff"
+            android:lineSpacingMultiplier="0.9"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <TextView android:id="@+id/searched_keyword"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#ffffff"
+        android:lineSpacingMultiplier="0.9"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:textColor="#000000"
+        android:textSize="14sp"/>
+
+</LinearLayout>
